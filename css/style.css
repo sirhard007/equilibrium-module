@@ -1,0 +1,101 @@
+*, *::after  *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+     background-color: black;
+     width: 200px;
+     height: 400px;
+     padding: 14px 14px;
+     border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+h4{
+    margin-top: 10px;
+   
+    text-align: left;
+}
+
+h6{
+    margin-top: 10px;
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.eth p{
+    color: aqua;
+}
+.time p{
+    color: aliceblue;
+}
+
+.eth, .time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.eth img {
+    width: 10px;
+}
+
+.time img {
+    width: 10px;
+}
+
+.line {
+    background-color: gray;
+    width: 100%;
+    height: .1px;    
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    margin-top: 20px;  
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
